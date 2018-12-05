@@ -1,7 +1,7 @@
 public class MatchingCelebrity{
     public static void main(String[]args){
         System.out.println("Hello! Are you excited to find your perfect celebrity match?");
-        System.out.println("We will only need a few information about you, then you will find out! First, when is your date of birth?");
+        System.out.println("We will only need a few information about you! First, when is your date of birth?");
         String birthday = TextIO.getlnString();
         System.out.println("Ok, now a few more things... What is your favorite food?");
         String favoriteFood = TextIO.getlnString();
